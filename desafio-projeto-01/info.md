@@ -23,3 +23,5 @@ Tarefas:
 - Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório;
 - Os usuários não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos que eles não pertencem e,
 - Subir arquivo de script criado para a sua conta no GitHub.
+
+O arquivo de execução que realiza a tarefa proposta é o `iac_create.sh`.
