@@ -12,4 +12,7 @@ Descrição do Desafio aqui
 
 Salve esse conteúdo em um arquivo com a extensão .sh, por exemplo, `nome_que_desejar.sh`, e dê permissão de execução com o comando `chmod +x nome_que_desejar.sh`. Depois, você pode executar o script com `./nome_que_desejar.sh` no terminal.
 
-Certifique-se de ter privilégios de administrador (sudo), ou estar em modo root, para executar esses comandos de atualização.
+Certifique-se de ter privilégios de administrador (sudo) para executar esses comandos de atualização ou use o script para super usuário (root).
+
+- Administrator, use o script `iac_server_sudo.sh`.
+- Super usuário, use o script `iac_server_root.sh`.

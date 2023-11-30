@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Verifica se o script está sendo executado como root
+# Check if the script is being executed as root
 if [[ $EUID -ne 0 ]]; then
    echo "Este script precisa ser executado como root. Execute-o usando sudo."
    exit 1
@@ -8,12 +8,12 @@ fi
 
 echo "Executando como root..."
 
-# Atualiza a lista de pacotes
+# SO Update
 echo "Atualizando a lista de pacotes..."
 apt update
 apt upgrade -y
 
-# Instalando os programas necessários
+# Installing the necessary programs
 echo "Instalando o Apache2..."
 apt install apache2 -y
 
@@ -23,7 +23,7 @@ apt install unzip -y
 echo "Instalação dos programas concluída."
 
 
-# Realizando o download, descompactando e copiando o arquivo para o diretório padrão do Apache.
+# Downloading, unpacking, and copying the file to the /tmp directory
 URL="URL_DA_SUA_FONTE_AQUI"
 
 DESTINO="/tmp"
@@ -33,7 +33,7 @@ wget -P "$DESTINO" "$URL"     # Use wget para baixar os arquivos
 
 echo "Downloads concluídos no diretório /tmp."
 
-# Copia os arquivos descompactados para o diretório padrão do Apache
+# Copying the files to the Apache default folder
 echo "Copiando arquivos para o diretório padrão do Apache..."
 cp -r "$DESTINO/*" /var/www/html/
 
