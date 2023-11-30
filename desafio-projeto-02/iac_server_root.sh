@@ -39,7 +39,7 @@ mkdir -p "$DIR_FILES"
 echo "Descompactando o arquivo baixado..."
 unzip "$DESTINO/*.zip" -d "$DESTINO/$DIR_FILES"
 
-echo "Arquivos descompactados no diretorio /tmp/$DIR_FILES."
+echo "Arquivos descompactados no diretorio $DESTINO/$DIR_FILES."
 
 # Copying the files to the Apache default folder
 echo "Copiando arquivos para o diretório padrão do Apache..."
@@ -47,4 +47,4 @@ cp -r "$DESTINO/$DIR_FILES/*" /var/www/html/
 
 echo "Arquivos copiados para o diretório padrão do Apache."
 
-echo "Fim do processo. IaC para criação de servidor web Apache."
+echo "Fim do processo. IaC para criação de servidor web Apache criado."
