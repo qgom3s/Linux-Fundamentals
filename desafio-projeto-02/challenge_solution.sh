@@ -24,7 +24,7 @@ echo "Instalação dos programas concluída."
 
 
 # Downloading, unpacking, and copying the file to the /tmp directory
-URL="URL_DA_SUA_FONTE_AQUI"
+URL="https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip"
 
 DESTINO="/tmp"
 
@@ -33,15 +33,8 @@ wget -P "$DESTINO" "$URL"     # Use wget para baixar os arquivos
 
 echo "Downloads concluídos no diretório /tmp."
 
-DIR_FILES="Pasta-Arquivos-Descompactados"
-mkdir -p "$DIR_FILES"
-
-echo "Descompactando o arquivo baixado..."
-unzip "$DESTINO/*.zip" -d "$DESTINO/$DIR_FILES"
-
-echo "Arquivos descompactados no diretorio /tmp/$DIR_FILES."
-
 # Copying the files to the Apache default folder
+DIR_FILES="linux-site-dio"
 echo "Copiando arquivos para o diretório padrão do Apache..."
 cp -r "$DESTINO/$DIR_FILES/*" /var/www/html/
 
