@@ -18,3 +18,12 @@
 
 - Informações sobre o gerenciamento de pacotes: [Link 1](https://docente.ifrn.edu.br/filiperaulino/disciplinas/isa-redes2n/linux-07-gerencia-de-pacotes) e [Link 2](https://pt.linux-console.net/?p=1516).
 - Informações sobre [processos](https://www.infowester.com/linprocessos.php#:~:text=Um%20PID%20(Process%20Identifier)%20%C3%A9,mais%20processos%20ao%20mesmo%20tempo.) no Linux.
+
+## Serviços Linux
+
+- O que são [servidores](https://www.qnapbrasil.com.br/blog/post/o-que-e-servidor-armazenamento-de-dados)?
+- Entendendo o modelo [cliente-servidor](https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/modelo.html).
+- Site oficial do [Apache](https://www.apache.org/).
+- Site oficial do [Samba](https://www.samba.org/).
+- Site oficial do [MySQL](https://www.mysql.com/).
+
