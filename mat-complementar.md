@@ -27,3 +27,7 @@
 - Site oficial do [Samba](https://www.samba.org/).
 - Site oficial do [MySQL](https://www.mysql.com/).
 
+## Linux Desktop: Ferramentas Importantes para o Desenvolvedor
+
+- Distribuições Linux para programadores: [Link 1](https://sempreupdate.com.br/melhores-distribruicoes-linux-para-programar/) e [Link 2](https://programadorviking.com.br/linux-para-desenvolvedores-as-13-melhores-distros-para-programar/).
+- [Aplicativos recomendados](https://sempreupdate.com.br/melhores-aplicativos-do-ubuntu-que-voce-deveria-usar/) para utilizar no Linux.
