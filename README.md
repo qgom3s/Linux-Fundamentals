@@ -17,5 +17,5 @@ O curso tem uma carga horária adequada. Iniciei o curso no dia 16 de Novembro e
 ## Outras Infos
 
 - Meu [Certificado](https://www.dio.me/certificate/495FC37A?utm_source=quena_gomes&utm_medium=users&utm_campaign=ds-forma%C3%A7%C3%A3o-linux-fundamentals) de conclusão. 🎓
-- Já está na [Dio](dio.me) ou vai ingressar? Siga o meu [perfil](https://www.dio.me/users/quena_gomes) por lá! 😉
+- Já está na [Dio](https://www.dio.me/) ou vai ingressar? Siga o meu [perfil](https://www.dio.me/users/quena_gomes) por lá! 😉
 - **Dica**: Para quem quiser saber mais sobre como programar e criar scripts, recomendo esse [vídeo](https://youtu.be/v-F3YLd6oMw?si=iEuZNE_hlPoliwUn). ✍🏻
